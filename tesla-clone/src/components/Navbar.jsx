@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="flex justify-between items-center px-12 p-4 text-sm font-bold">
       <div>
         <img
           className="h-3"
@@ -10,7 +10,7 @@ const Navbar = () => {
           alt="Tesla logo"
         />
       </div>
-      <div>
+      <div className="hidden lg:inline">
         <ul className="flex justify-center hover:cursor-pointer">
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model S</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model 3</li>
@@ -20,11 +20,11 @@ const Navbar = () => {
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Solar Panels</li>
         </ul>
       </div>
-      <div>
+      <div className="hidden lg:inline">
         <ul className="flex justify-center hover:cursor-pointer">
-          <li>Shop</li>
-          <li>Account</li>
-          <li>Menu</li>
+          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Shop</li>
+          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Account</li>
+          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Menu</li>
         </ul>
       </div>
     </div>
