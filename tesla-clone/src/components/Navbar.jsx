@@ -11,7 +11,7 @@ const Navbar = () => {
         />
       </div>
       <div>
-        <ul>
+        <ul className="flex justify-center hover:cursor-pointer">
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model S</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model 3</li>
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model X</li>
@@ -21,7 +21,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <ul>
+        <ul className="flex justify-center hover:cursor-pointer">
           <li>Shop</li>
           <li>Account</li>
           <li>Menu</li>
