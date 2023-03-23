@@ -27,6 +27,9 @@ const Navbar = () => {
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Menu</li>
         </ul>
       </div>
+      <div className="lg:hidden">
+       <button>Menu</button>
+      </div>
     </div>
   );
 };
