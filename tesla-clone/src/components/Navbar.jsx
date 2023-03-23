@@ -27,8 +27,9 @@ const Navbar = () => {
           <li className="py-1 px-3 hover:rounded hover:bg-black/5">Menu</li>
         </ul>
       </div>
+      {/*Mobile Menu*/ }
       <div className="lg:hidden">
-       <button>Menu</button>
+       <button className="inline-flex items-center roaded-md py-2 px-4 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">Menu</button>
       </div>
     </div>
   );
