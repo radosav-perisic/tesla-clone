@@ -31,8 +31,8 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex justify-end  mr-9">
         <ul className="flex justify-center hover:cursor-pointer">
-          <li className="px-3 m-1 hover:rounded hover:bg-black/5">Shop</li>
-          <li className="px-3 m-1 hover:rounded hover:bg-black/5">Account</li>
+          <li className="px-3 m-1 hover:rounded hover:bg-black/5"><a href="https://shop.tesla.com">Shop</a></li>
+          <li className="px-3 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/teslaaccount">Account</a></li>
           <li className="px-3 m-1 hover:rounded hover:bg-black/5">Menu</li>
         </ul>
       </div>
