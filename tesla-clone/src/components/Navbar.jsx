@@ -2,6 +2,8 @@ import React from "react";
 import {TfiClose} from 'react-icons/tfi'
 
 const Navbar = () => {
+  
+
   return (
     <div className="flex text-sm font-medium fixed justify-between bg-none bg-transparent mt-4 m-4 z-50 w-full top-0">
       <div>
@@ -48,20 +50,20 @@ const Navbar = () => {
        <TfiClose className="rounded p-1 hover:bg-black/5" size={28}/>
        </div>
        <ul className="pt-8 px-6">
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Existing Inventory</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Used Inventory</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Trade-In</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Demo Drive</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Insurance</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Cybertruck</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Roadster</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Semi</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Charging</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Commercial Energy</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Utilities</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Find Us</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Support</li></a>
-       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Investor Relations</li></a>
+       <a href="https://www.tesla.com/inventory/new/m3"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Existing Inventory</li></a>
+       <a href="https://www.tesla.com/inventory/used/m3"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Used Inventory</li></a>
+       <a href="https://www.tesla.com/tradein"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Trade-In</li></a>
+       <a href="https://www.tesla.com/drive"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Demo Drive</li></a>
+       <a href="https://www.tesla.com/insurance"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Insurance</li></a>
+       <a href="https://www.tesla.com/cybertruck"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Cybertruck</li></a>
+       <a href="https://www.tesla.com/roadster"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Roadster</li></a>
+       <a href="https://www.tesla.com/semi"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Semi</li></a>
+       <a href="https://www.tesla.com/charging"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Charging</li></a>
+       <a href="https://www.tesla.com/commercial"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Commercial Energy</li></a>
+       <a href="https://www.tesla.com/utilities"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Utilities</li></a>
+       <a href="https://www.tesla.com/findus"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Find Us</li></a>
+       <a href="https://www.tesla.com/support"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Support</li></a>
+       <a href="https://ir.tesla.com/"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Investor Relations</li></a>
        
 
        </ul>
