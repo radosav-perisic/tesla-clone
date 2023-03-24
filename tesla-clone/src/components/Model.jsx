@@ -10,7 +10,7 @@ const Model = () => {
         </div>
         <div className='flex flex-col items-center justify-center text-sm lg:flex-row absoulte inset-x-0 bottom-[10%]'>
             <button className='bg-[#393c41] rounded-mb w-96 lg:w-64 lg:mx-4 h-10 mt-2 text-white '>Custom Order</button>
-            <button>Existing Inventory</button>
+            <button className='bg-[#f4f4f4] rounded-mb w-96 lg:w-64 lg:mx-4 h-10 mt-2 '>Existing Inventory</button>
         </div>
         <div>
             <FiChevronDown />
