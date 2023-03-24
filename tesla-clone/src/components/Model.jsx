@@ -8,7 +8,7 @@ const Model = () => {
             <h1 className='text-4xl font-bold'>Model 3</h1>
             <p className='p-2 text-sm'>Order Online for <span className='underline underline-offset-4'>Touchless Delivery</span> </p>
         </div>
-        <div>
+        <div className='flex flex-col items-center justify-center text-sm lg:flex-row absoulte inset-x-0 bottom-[10%]'>
             <button>Custom Order</button>
             <button>Existing Inventory</button>
         </div>
