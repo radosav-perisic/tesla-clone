@@ -43,10 +43,28 @@ const Navbar = () => {
           Menu
         </button>
       </div>
-      <div className="bg-white absolute top-0 right-0 w-80 h-full z-10">
+      <div className="bg-white fixed top-0 right-0 w-80 h-full z-10">
        <div className="flex justify-end pr-8 pt-8">
        <TfiClose className="rounded p-1 hover:bg-black/5" size={28}/>
        </div>
+       <ul className="pt-8 px-6">
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Existing Inventory</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Used Inventory</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Trade-In</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Demo Drive</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Insurance</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Cybertruck</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Roadster</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Semi</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Charging</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Commercial Energy</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Utilities</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Find Us</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Support</li></a>
+       <a href=""><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Investor Relations</li></a>
+       
+
+       </ul>
       </div>
     </div>
   );
