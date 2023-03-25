@@ -13,7 +13,7 @@ function App() {
       <ModelY />
       <ModelS />
       <ModelX />
-      
+      <SolarPanels />
     </div>
   );
 }
