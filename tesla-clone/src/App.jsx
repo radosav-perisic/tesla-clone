@@ -1,3 +1,4 @@
+import Accessories from "./components/Accessories";
 import Model3 from "./components/Model3";
 import ModelS from "./components/ModelS";
 import ModelX from "./components/ModelX";
@@ -16,6 +17,7 @@ function App() {
       <ModelX />
       <SolarPanels />
       <SolarRoof />
+      <Accessories />
     </div>
   );
 }
