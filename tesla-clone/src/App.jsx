@@ -4,6 +4,7 @@ import ModelX from "./components/ModelX";
 import ModelY from "./components/ModelY";
 import Navbar from "./components/Navbar";
 import SolarPanels from "./components/SolarPanels";
+import SolarRoof from "./components/SolarRoof";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ModelS />
       <ModelX />
       <SolarPanels />
+      <SolarRoof />
     </div>
   );
 }
