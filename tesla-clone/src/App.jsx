@@ -11,6 +11,7 @@ function App() {
   return (
     <div >
       <Navbar />
+      <div className="snap-y snap-mandatory overflow-auto h-screen">
       <Model3 />
       <ModelY />
       <ModelS />
@@ -18,6 +19,7 @@ function App() {
       <SolarPanels />
       <SolarRoof />
       <Accessories />
+      </div>
     </div>
   );
 }

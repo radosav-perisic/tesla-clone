@@ -20,7 +20,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="hidden lg:flex justify-center">
-        <ul className="flex ml-16 justify-center hover:cursor-pointer">
+        <ul className="flex ml-16 justify-center tex hover:cursor-pointer">
           <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/models"> Model S</a></li>
           <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/model3"> Model 3</a></li>
           <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/modelx"> Model X</a></li>
