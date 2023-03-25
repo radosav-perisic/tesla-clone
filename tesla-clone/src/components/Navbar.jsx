@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import {TfiClose} from 'react-icons/tfi'
 
 const Navbar = () => {
-  
+  const [nav, setNav] = useState(false)
+
+  const handleNav = () => {
+    setNav(!nav)
+  }
 
   return (
     <div className="flex text-sm font-medium fixed justify-between bg-none bg-transparent mt-4 m-4 z-50 w-full top-0">
@@ -36,18 +40,18 @@ const Navbar = () => {
         <ul className="flex justify-center hover:cursor-pointer">
           <li className="px-3 m-1 hover:rounded hover:bg-black/5"><a href="https://shop.tesla.com">Shop</a></li>
           <li className="px-3 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/teslaaccount">Account</a></li>
-          <li className="px-3 m-1 hover:rounded hover:bg-black/5">Menu</li>
+          <li onClick={handleNav} className="px-3 m-1 hover:rounded hover:bg-black/5">Menu</li>
         </ul>
       </div>
       {/*Mobile Menu*/}
       <div className="lg:hidden items-end mr-9">
-        <button className="inline-flex items-center roaded-md py-2 px-4 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
+        <button onClick={handleNav} className="inline-flex items-center roaded-md py-2 px-4 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
           Menu
         </button>
       </div>
-      <div className="bg-white fixed top-0 right-0 w-80 h-full z-10">
+      <div className={nav ? "bg-white fixed top-0 ease-out duration-1000 right-0 w-80 h-full z-10": 'fixed bg-white/5 backdrop-blur-3xl top-0 z-10 h-full w-80 ease-in duration-1000 right-[-100%]'}>
        <div className="flex justify-end pr-8 pt-8">
-       <TfiClose className="rounded p-1 hover:bg-black/5" size={28}/>
+       <TfiClose onClick={handleNav} className="rounded p-1 hover:bg-black/5 hover:cursor-pointer" size={28}/>
        </div>
        <ul className="pt-8 px-6">
        <a href="https://www.tesla.com/inventory/new/m3"><li className="py-3 pl-3 hover:rounded hover:bg-black/5">Existing Inventory</li></a>
