@@ -1,4 +1,5 @@
 import Model3 from "./components/Model3";
+import ModelS from "./components/ModelS";
 import ModelY from "./components/ModelY";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Model3 />
       <ModelY />
+      <ModelS />
     </div>
   );
 }
