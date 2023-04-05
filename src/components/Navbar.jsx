@@ -49,7 +49,7 @@ const Navbar = () => {
           Menu
         </button>
       </div>
-      <div className={nav ? "bg-white fixed top-0 ease-out duration-1000 right-0 w-80 h-full z-10": 'fixed bg-white/5 backdrop-blur-3xl top-0 z-10 h-full w-80 ease-in duration-1000 right-[-100%]'}>
+      <div className={nav ? "bg-white fixed top-0 ease-out duration-1000 right-0 w-80 h-full z-10": 'fixed bg-transparent top-0 z-10 h-full w-80 ease-in duration-1000 right-[-100%]'}>
        <div className="flex justify-end pr-8 pt-8">
        <TfiClose onClick={handleNav} className="rounded p-1 hover:bg-black/5 hover:cursor-pointer" size={28}/>
        </div>
