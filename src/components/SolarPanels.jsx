@@ -11,14 +11,14 @@ const SolarPanels = () => {
         <div className="flex-col absolute z-40 flex items-center justify-center text-sm lg:flex-row inset-x-0 bottom-[10%]">
           <a href="https://www.tesla.com/model3/design#overview">
             {" "}
-            <button className="bg-[#222326]/80 rounded-mb w-96 lg:w-64 lg:mx-4 h-10 mt-2 text-white">
-              Custom Order
+            <button className="rounded-[0.250rem] bg-[#1c2025]/80 text-gray-50 tracking-wider w-72 lg:w-[16.5rem] mb-2 font-semibold lg:mx-4 h-10 mt-2">
+              Order Now
             </button>
           </a>
           <a href="https://www.tesla.com/drive">
             {" "}
-            <button className="bg-[#f4f4f4]/50 rounded-mb w-96 lg:w-64 lg:mx-4 h-10 mt-2 text-gray-700/90 font-bold">
-              View Inventory
+            <button className="bg-[#f4f4f4]/50 rounded-[0.250rem] w-72 lg:w-[16.5rem] lg:mx-4 h-10 mt-2 text-gray-700/90 font-bold">
+             Learn More
             </button>
           </a>
         </div>
