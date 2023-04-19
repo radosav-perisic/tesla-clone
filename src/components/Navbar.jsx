@@ -21,26 +21,26 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:flex justify-center">
         <ul className="flex ml-16 justify-center tex hover:cursor-pointer">
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/models"> Model S</a></li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/model3"> Model 3</a></li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/modelx"> Model X</a></li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/modely"> Model Y</a></li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/solarroof">
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/models"> Model S</a></li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/model3"> Model 3</a></li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/modelx"> Model X</a></li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/modely"> Model Y</a></li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/solarroof">
             Solar Roof</a>
           </li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/solarpanels">
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/solarpanels">
             Solar Panels</a>
           </li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/powerwall">
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/powerwall">
             Powerwall</a>
           </li>
         </ul>
       </div>
       <div className="hidden lg:flex justify-end  mr-9">
         <ul className="flex justify-center hover:cursor-pointer">
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://shop.tesla.com">Shop</a></li>
-          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5"><a href="https://tesla.com/teslaaccount">Account</a></li>
-          <li onClick={handleNav} className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5">Menu</li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://shop.tesla.com">Shop</a></li>
+          <li className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500"><a href="https://tesla.com/teslaaccount">Account</a></li>
+          <li onClick={handleNav} className="py-1.5 px-4 m-1 hover:rounded hover:bg-black/5 duration-500">Menu</li>
         </ul>
       </div>
       {/*Mobile Menu*/}
@@ -49,7 +49,7 @@ const Navbar = () => {
           Menu
         </button>
       </div>
-      <div className={nav ? "bg-white fixed top-0 ease-out duration-1000 right-0 w-80 h-full z-10": 'fixed bg-transparent top-0 z-10 h-full w-80 ease-in duration-1000 right-[-100%]'}>
+      <div className={nav ? "bg-white fixed top-0 ease-out duration-700 right-0 w-80 h-full z-10": 'fixed bg-transparent top-0 z-10 h-full w-80 ease-in duration-700 right-[-100%]'}>
        <div className="flex justify-end pr-8 pt-8">
        <TfiClose onClick={handleNav} className="rounded p-1 hover:bg-black/5 hover:cursor-pointer" size={28}/>
        </div>
