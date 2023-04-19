@@ -1,4 +1,5 @@
 import Accessories from "./components/Accessories";
+import ArrowDown from "./components/ArrowDown";
 import Model3 from "./components/Model3";
 import ModelS from "./components/ModelS";
 import ModelX from "./components/ModelX";
@@ -12,8 +13,9 @@ function App() {
     <div >
       <Navbar />
       <div className="snap-y snap-mandatory overflow-auto h-screen">
-      <Model3 />
       <ModelY />
+      <ArrowDown />
+      <Model3 />
       <ModelS />
       <ModelX />
       <SolarPanels />
