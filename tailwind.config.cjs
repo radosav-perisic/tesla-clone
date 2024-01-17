@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      html: {
+        scrollBehavior: 'smooth',
+       height : '100%'
+      },
+    },
   },
   plugins: [],
 }
