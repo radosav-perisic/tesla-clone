@@ -3,7 +3,7 @@ import React from 'react'
 const SolarPanels = () => {
   return (
     <div>
-      <div className="snap-start bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb/bvlatuR/std/600x1576/Homepage-SolarPanels-Mobile')] lg:bg-[url('https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D')] h-screen bg-cover bg-center relative">
+      <div className="snap-start bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1576,w_600,c_fit,f_auto,q_auto:best/Homepage-SolarPanels-Mobile')] lg:bg-[url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/425_HP_SolarPanels_D')] h-screen bg-cover bg-center relative">
         <div className="flex-col pt-32 inset-x-0 top-[15%] text-center">
           <h1 className="text-4xl font-bold text-gray-900">Solar Panels</h1>
           <p className="p-2 pt-3 text-gray-900/90 text-sm">Lowest Cost Solar Panels in America</p>
