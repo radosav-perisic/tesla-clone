@@ -1,14 +1,11 @@
-import React from 'react'
-import { FiChevronDown } from "react-icons/fi";
-import {Link} from 'react-scroll'
+
+import { FiChevronDown } from "react-icons/fi"; 
 
 const ArrowDown = () => {
+
+
   return (
-    <button >
-<Link className="flex justify-center animate-bounce absolute inset-x-0 bottom-[3%]" to='modelY' smooth={true} duration={500}>
-  <FiChevronDown size={32}/>
-</Link>
-</button>
+  <FiChevronDown size={35} className='text-[#393c41] mr-1.5 flex cursor-pointer justify-center animate-down duration-500 fixed inset-x-0 bottom-[3%]' viewBox='0 0 30 30'/>
   )
 }
 
