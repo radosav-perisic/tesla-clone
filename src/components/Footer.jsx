@@ -6,25 +6,25 @@ const Footer = () => {
       
       <div className="flex space-x-10 items-center">
       <div className='space-x-3 flex'>
-        <a href="https://www.tesla.com/about" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/about" className="text-xs hover:text-white duration-150">
           Tesla © 2024
         </a>
-        <a href="https://www.tesla.com/legal" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/legal" className="text-xs hover:text-white duration-150">
           Privacy & Legal
         </a>
-        <a href="https://www.tesla.com/vin-recall-search" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/vin-recall-search" className="text-xs hover:text-white duration-150">
           Vehicle Recalls
         </a>
-        <a href="https://www.tesla.com/contact" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/contact" className="text-xs hover:text-white duration-150">
           Contact
         </a>
-        <a href="https://www.tesla.com/blog" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/blog" className="text-xs hover:text-white duration-150">
           News
         </a>
-        <a href="https://www.tesla.com/updates" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/updates" className="text-xs hover:text-white duration-150">
           Get Updates
         </a>
-        <a href="https://www.tesla.com/findus/list" className="text-xs hover:font-bold duration-150">
+        <a href="https://www.tesla.com/findus/list" className="text-xs hover:text-white duration-150">
           Locations
         </a>
         </div>
