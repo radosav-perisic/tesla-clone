@@ -11,7 +11,7 @@ const Accessories = () => {
         <div className="flex-col absolute z-40 flex items-center justify-center text-sm lg:flex-row inset-x-0 bottom-[10%]">
           <a href="https://www.tesla.com/model3/design#overview">
             {" "}
-            <button className="lg:mx-4 h-10 mt-2 rounded-[0.250rem] bg-[#f4f4f4]/90 text-gray-900/70 tracking-wider w-72 lg:w-[16.5rem] font-semibold subpixel-antialiased">
+            <button className="lg:mx-4 h-10 mb-6 md:mt-2 rounded-[0.250rem] bg-[#f4f4f4]/90 text-gray-900/70 tracking-wider w-72 lg:w-[16.5rem] font-semibold subpixel-antialiased">
               Shop Now
             </button>
           </a>
